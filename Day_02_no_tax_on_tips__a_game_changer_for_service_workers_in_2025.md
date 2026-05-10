@@ -1,5 +1,6 @@
 ---
 title: "No Tax on Tips: A Game Changer for Service Workers in 2025"
+excerpt: "The 'No Tax on Tips' provision in the One Big Beautiful Bill Act allows service workers to deduct up to $25,000 in qualified tips from taxable income — here's what it means for your employees and your business."
 seo_meta_description: "Service workers can now deduct up to $25,000 in tips from their taxable income under the 2025 One Big Beautiful Bill. Here's everything you need to know."
 seo_keywords: "no tax on tips, 2025 tip deduction, IRS tip rules, service industry taxes"
 category: "New Tax Laws"
