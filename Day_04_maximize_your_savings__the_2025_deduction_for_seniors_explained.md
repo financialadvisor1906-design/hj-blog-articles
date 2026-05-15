@@ -6,11 +6,12 @@ category: "Tax Strategy"
 day: 4
 reading_time: "6 min read"
 tags: [tax-strategy, 2025-taxes, retirement, senior-deduction]
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663537732193/VqnAgxCEqcgJP2zYkcjYo7/day_04_senior_deduction-LLgErZEe7WoafpvHWmryiB.webp"
 ---
 
 # Maximize Your Savings: The 2025 Deduction for Seniors Explained
 
-![Maximize Your Savings: The 2025 Deduction for Seniors Explained](images/day_04.jpg)
+![Maximize Your Savings: The 2025 Deduction for Seniors Explained](https://d2xsxph8kpxj0f.cloudfront.net/310519663537732193/VqnAgxCEqcgJP2zYkcjYo7/day_04_senior_deduction-LLgErZEe7WoafpvHWmryiB.webp)
 
 *Day 4 of 30 | Category: Tax Strategy | 6 min read*
 
