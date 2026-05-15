@@ -8,6 +8,7 @@ day: 2
 reading_time: "6 min read"
 tags: [new-tax-laws, 2025-taxes, service-industry, tax-deductions]
 image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663537732193/VqnAgxCEqcgJP2zYkcjYo7/day_02_no_tax_tips-WKwxStDagUANn5U43gKhGo.webp"
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663537732193/VqnAgxCEqcgJP2zYkcjYo7/day_02_no_tax_tips-WKwxStDagUANn5U43gKhGo.webp"
 ---
 
 # No Tax on Tips: A Game Changer for Service Workers in 2025
