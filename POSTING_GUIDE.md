@@ -15,41 +15,74 @@
 
 Every article file must start with a **frontmatter block** (between the `---` lines):
 
-```markdown
+```
 ---
 title: "Your Article Title Here"
+category: "Tax Strategy"
+date: 2026-05-15
+excerpt: "A 1-2 sentence summary that appears on the homepage card."
+image: "https://full-url-to-your-image.jpg"
 slug: your-article-url-slug
-category: Tax Strategy
-excerpt: "A 1-2 sentence summary of the article that appears on the homepage and in search results."
-date: 2026-05-09
-readTime: 5
-image: https://optional-image-url.com/photo.jpg
+tags: [tag-one, tag-two, tag-three]
 ---
 
 Your article content starts here...
-
-## Section Heading
-
-More content...
 ```
 
 ---
 
-## Field Reference
+## ⚠️ IMPORTANT: How to Add Images
 
-| Field | Required | Description | Example |
-|-------|----------|-------------|---------|
-| `title` | Yes | Article headline. Use quotes if it contains a colon. | `"No Tax on Tips: What It Means"` |
-| `slug` | Yes | URL-friendly version of the title (lowercase, hyphens, no spaces) | `no-tax-on-tips-2025` |
-| `category` | Yes | Must match one of the nav categories exactly | `Tax Strategy` |
-| `excerpt` | Yes | 1-2 sentence summary for homepage cards and SEO | `"Learn how the new..."` |
-| `date` | Yes | Publication date in YYYY-MM-DD format | `2026-05-09` |
-| `readTime` | No | Estimated reading time in minutes | `5` |
-| `image` | No | URL to a header image (leave blank to use a default) | `https://...` |
+**Images MUST use full `https://` URLs.** Relative paths like `images/day_04.jpg` will NOT work on the live blog because the blog fetches your Markdown from GitHub and renders it — it has no access to local files.
+
+### Option 1 — Use a Free Image from Unsplash (Easiest)
+Go to [unsplash.com](https://unsplash.com), find a photo, right-click → Copy Image Address, and paste the full URL:
+```
+image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"
+```
+
+### Option 2 — Upload to GitHub and Use the Raw URL
+1. In your GitHub repo, create an `images/` folder
+2. Upload your image file there (e.g., `images/day_04.jpg`)
+3. Click the image in GitHub, then click **"Raw"**
+4. Copy the full URL (starts with `https://raw.githubusercontent.com/...`)
+5. Use that URL in your frontmatter:
+```
+image: "https://raw.githubusercontent.com/financialadvisor1906-design/hj-blog-articles/main/images/day_04.jpg"
+```
+
+### Option 3 — Use Any Public Image URL
+Any image URL that starts with `https://` will work:
+- WordPress media uploads: `https://hutchersonjones.blog/wp-content/uploads/...`
+- Stock photo CDNs
+- Any publicly accessible image link
+
+### In the article body
+The same rule applies to images inside the article text:
+```
+![Alt text](https://full-url-to-image.jpg)   ✅ Works
+![Alt text](images/day_04.jpg)               ❌ Broken — relative path
+```
 
 ---
 
-## Available Categories
+## Frontmatter Field Reference
+
+| Field | Required | Example |
+|-------|----------|---------|
+| `title` | ✅ Yes | `"No Tax on Tips: A Game Changer"` |
+| `category` | ✅ Yes | `"Tax Strategy"` (see list below) |
+| `date` | ✅ Yes | `2026-05-15` |
+| `excerpt` | Recommended | `"Short 1-2 sentence summary..."` |
+| `image` | Recommended | `"https://images.unsplash.com/..."` |
+| `slug` | Recommended | `no-tax-on-tips-2025` |
+| `tags` | Optional | `[tax-strategy, 2025-taxes]` |
+
+---
+
+## Valid Categories
+
+Use one of these exactly (spelling and capitalization matter):
 
 - `Tax Strategy`
 - `New Tax Law`
@@ -60,50 +93,27 @@ More content...
 
 ---
 
-## Markdown Formatting Tips
-
-```markdown
-# Heading 1 (use for main title — usually skip this since title is in frontmatter)
-## Heading 2 (use for major sections)
-### Heading 3 (use for subsections)
-
-**Bold text** for emphasis
-*Italic text* for subtle emphasis
-
-> Blockquote for important callouts or quotes
-
-- Bullet point
-- Another bullet point
-
-1. Numbered list
-2. Second item
-
-| Column 1 | Column 2 |
-|----------|----------|
-| Data     | Data     |
-```
-
----
-
-## Example Article File
+## Complete Example
 
 ```markdown
 ---
-title: "5 Bookkeeping Mistakes That Cost Small Businesses Money"
-slug: bookkeeping-mistakes-small-business
-category: Bookkeeping
-excerpt: "Most small business owners don't realize they're losing money to simple bookkeeping errors. Here are the five most common mistakes — and how to fix them."
-date: 2026-05-15
-readTime: 4
+title: "5 Tax Deductions Every Small Business Owner Misses"
+category: "Tax Strategy"
+date: 2026-05-20
+excerpt: "Most small business owners leave money on the table at tax time. Here are five deductions you may be overlooking."
+image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"
+slug: 5-tax-deductions-small-business-owners-miss
+tags: [tax-strategy, small-business, deductions]
 ---
 
-Running a small business means wearing many hats. But when bookkeeping falls through the cracks, the financial consequences can be serious.
+Your article content here...
 
-## 1. Mixing Personal and Business Finances
+## Section Heading
 
-One of the most common mistakes is using a personal bank account for business transactions...
+Paragraph text here.
 
-## 2. Not Reconciling Monthly
+- Bullet point one
+- Bullet point two
 
-Bank reconciliation catches errors before they become problems...
+![Caption for image](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80)
 ```
