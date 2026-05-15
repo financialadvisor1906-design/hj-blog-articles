@@ -10,8 +10,7 @@ tags: [bookkeeping, small-business, accounting-errors, financial-planning]
 
 # Common Bookkeeping Mistakes and How to Avoid Them
 
-![Common Bookkeeping Mistakes and How to Avoid Them](images/day_05.jpg)
-
+https://raw.githubusercontent.com/financialadvisor1906-design/hj-blog-articles/main/day_5.jpg
 *Day 5 of 30 | Category: Bookkeeping | 7 min read*
 
 ---
