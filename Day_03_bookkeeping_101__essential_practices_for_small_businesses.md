@@ -7,6 +7,7 @@ day: 3
 reading_time: "8 min read"
 tags: [bookkeeping, small-business, accounting, financial-planning]
 image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663537732193/VqnAgxCEqcgJP2zYkcjYo7/day_03_bookkeeping-Bcu9m9VnCdFfeaMvYwamD4.webp"
+image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663537732193/VqnAgxCEqcgJP2zYkcjYo7/day_03_bookkeeping-Bcu9m9VnCdFfeaMvYwamD4.webp"
 ---
 
 # Bookkeeping 101: Essential Practices for Small Businesses
